@@ -3,11 +3,11 @@ import banner from "@/assets/banner2.png";
 
 const Banner2 = () => {
   return (
-    <div className="h-[363px] relative -translate-y-[966px] -z-10">
+    <div className="h-[363px] relative -z-10">
       <Image
         className="object-cover w-full h-auto"
         src={banner.src}
-        layout={"fill"}
+        fill
         alt="Modern Super Cars Banner"
       />
     </div>

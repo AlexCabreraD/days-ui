@@ -1,5 +1,6 @@
 import Image from "next/image";
-import banner from "@/assets/banner1.png";
+import banner1 from "@/assets/banner1.png";
+import banner2 from "@/assets/banner2.png";
 import {
   SiNissan,
   SiFord,
@@ -19,49 +20,46 @@ import { CgBmw } from "react-icons/cg";
 const Banner1 = () => {
   return (
     <>
-      <div className="h-[363px] relative -translate-y-[413px] -z-10">
+      <div className="h-[363px] relative -z-10 -mt-[100px]">
         <Image
-          className="object-cover w-full h-auto"
-          src={banner.src}
+          className="object-cover"
+          src={banner1.src}
           layout={"fill"}
           alt="Modern Super Cars Banner"
         />
       </div>
-      <div className="bg-red-600 h-[265px] -translate-y-[513px] flex flex-col items-center text-center py-[64px] gap-[16px]">
-        <span className="text-[18px] text-white font-bold">
-          Some of the Car Brands We Service
-        </span>
+      <div className="bg-red-600 flex flex-col items-center text-center ">
         <div className="overflow-hidden relative w-full h-full text-white">
-          <div className="row flex">
-            <div className="stack animate-left">
-              <SiNissan className="icon" />
-              <SiFord className="icon" />
-              <SiToyota className="icon" />
-              <CgBmw className="icon" />
-              <SiMazda className="icon" />
-              <SiAudi className="icon" />
-              <SiChevrolet className="icon" />
-              <SiMercedes className="icon" />
-              <SiVolkswagen className="icon" />
-              <SiChrysler className="icon" />
-              <SiAcura className="icon" />
-              <SiHonda className="icon" />
-              <SiHyundai className="icon" />
+          <div className="flex">
+            <div className="row animate-left">
+              <SiNissan className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiFord className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiToyota className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <CgBmw className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiMazda className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiAudi className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiChevrolet className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiMercedes className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiVolkswagen className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiChrysler className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiAcura className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiHonda className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiHyundai className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
             </div>
-            <div className="stack animate-left">
-              <SiNissan className="icon" />
-              <SiFord className="icon" />
-              <SiToyota className="icon" />
-              <CgBmw className="icon" />
-              <SiMazda className="icon" />
-              <SiAudi className="icon" />
-              <SiChevrolet className="icon" />
-              <SiMercedes className="icon" />
-              <SiVolkswagen className="icon" />
-              <SiChrysler className="icon" />
-              <SiAcura className="icon" />
-              <SiHonda className="icon" />
-              <SiHyundai className="icon" />
+            <div className="row animate-left">
+              <SiNissan className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiFord className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiToyota className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <CgBmw className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiMazda className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiAudi className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiChevrolet className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiMercedes className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiVolkswagen className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiChrysler className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiAcura className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiHonda className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
+              <SiHyundai className="w-[75px] h-[75px] md:w-[90px] md:h-[75px] m-[32px]" />
             </div>
           </div>
         </div>

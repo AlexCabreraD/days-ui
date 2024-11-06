@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-x-hidden modern-scrollbar">
+    <div className="h-screen overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <Features />
